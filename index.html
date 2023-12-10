@@ -48,7 +48,7 @@
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Downlaod CV</button>
                 <button class="btn btn-color-1" onclick="location.href = './#contact'">Contact Info</button>
-                <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./experience'">
+                <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#about'">
             </div>
             <div id="social-container">
                 <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/aditya-pratap-49538a250/'">
@@ -82,14 +82,14 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./experience'">
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
 
     <section id="experience">
         <p  class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title experience-title">Experience</h1>
         <div class="experience-detail-container">
-            <div class="detail-containers">
+            <div class="details-container">
                 <h2 class="experience-sub-title">Frontend Development</h2>
                 <div class="article-container">
                     <article>
@@ -121,6 +121,8 @@
                         </div>
                     </article>
                 </div>
+            </div>
+                <div class="details-container">
                 <h2 class="experience-sub-title">Backend Development</h2>
                 <div class="article-container">
                     <article>
@@ -138,10 +140,97 @@
                         </div>
                     </article>
             </div>
+            
         </div>
-        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./projects'">
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#projects'">
     </section>
     
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title project-title">Projects</h1>
+        <div class="project-container">
+        <div class="experience-detail-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="loaction.href='https://github.com/'">
+                        Github
+                    </button>
+                    <!-- have to add live projects when i made later -->
+                    <button class="btn btn-color-2 project-btn" onclick="loaction.href='https://github.com/'"> 
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="experience-detail-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="loaction.href='https://github.com/'">
+                        Github
+                    </button>
+                    <!-- have to add live projects when i made later -->
+                    <button class="btn btn-color-2 project-btn" onclick="loaction.href='https://github.com/'"> 
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="experience-detail-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-3.png" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="loaction.href='https://github.com/'">
+                        Github
+                    </button>
+                    <!-- have to add live projects when i made later -->
+                    <button class="btn btn-color-2 project-btn" onclick="loaction.href='https://github.com/'"> 
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+           <img src="./assets/email.png" alt="Email-icon" class="icon contact-icon email-icon">
+           <p><a href="mailto:adityapratap323@gmail.com">adityapratap323@gmail.com</a></p> 
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn-icon" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/aditya-pratap-49538a250/">LinkedIn</a></p> 
+         </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Aditya Pratap. All Right Reserved</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
